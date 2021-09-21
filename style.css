@@ -46,11 +46,11 @@ body .clock {
   border: 4px solid #091921;
   border-radius: 50%;
   -webkit-box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05),
-    inset 0 -15px 15px rgba(255, 255, 255, 0.05),
-    0 15px 15px rgba(0, 0, 0, 0.03), inset 0 15px 15px rgba(0, 0, 0, 0.03);
+                      inset 0 -15px 15px rgba(255, 255, 255, 0.05),
+                      0 15px 15px rgba(0, 0, 0, 0.03), inset 0 15px 15px rgba(0, 0, 0, 0.03);
   box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05),
-    inset 0 -15px 15px rgba(255, 255, 255, 0.05),
-    0 15px 15px rgba(0, 0, 0, 0.03), inset 0 15px 15px rgba(0, 0, 0, 0.03);
+                      inset 0 -15px 15px rgba(255, 255, 255, 0.05),
+                      0 15px 15px rgba(0, 0, 0, 0.03), inset 0 15px 15px rgba(0, 0, 0, 0.03);
 }
 body .clock::before {
   content: "";
@@ -78,7 +78,7 @@ body .clock .hour .hour__name {
   font-size: 20px;
   color: #ffffffc5;
   letter-spacing: 1px;
-  z-index: -1;
+  z-index: 1;
 }
 body .clock .hour .hour__name span {
   font-size: 16px;
